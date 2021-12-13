@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Etiquetas Meta tags, Descripción -->
+    <meta name="description" content="Somos una librería dedicada exclusivamente a la venta, compra, canje y distrubición de libros usados. No te pierdas nuestras increibles ofertas.">
+
+    <!-- Etiquetas Meta tags, Palabras clave -->
+    <meta name="keywords" content="Librería, Librería Escobar, venta de libros, libros usados, libros, usados, Novedades">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imagenes/imagenes-favicon/favicon.ico" type="image-marca-icon">
+
+    <!-- Título -->
+    <title>Librería Escobar | Venta, Compra y Canje de libros usados.</title>
+
+    <!-- Css traido de Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Katibeh&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Scss -->
+    <link rel="stylesheet" href="scss/prueba.css">
+    
+  </head>
+
+  <body>
+
+    <!-- == -->
+    <!-- Empieza la estructura inicial de la página -->
+    <!-- == -->
+    
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+          <div class="container-fluid">
+            <a class="navbar-brand text-light fs-1" href="index.html">Librería Escobar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link text-light active fs-4" aria-current="page" href="pages/sobrenosotros.html">Conocenos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-4" href="pages/novedades.html">Novedades</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-light fs-4" href="pages/clientes.html">Clientes</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-light fs-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    gift-cards
+                  </a>
+                  <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item text-light fs-4" href="pages/gift-cards.html#10k">Gift-10k</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="pages/gift-cards.html#5k">Gift-5k</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="pages/gift-cards.html#4k">Gift-4k</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="pages/gift-cards.html#3k">Gift-3k</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="pages/gift-cards.html#2k">Gift-2k</a></li>
+                    <li><a class="dropdown-item text-light fs-4" href="pages/gift-cards.html#1k">Gift-1k</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <hr>
+                    <li><a class="dropdown-item text-light fs-4" href="pages/terminos-y-condiciones.html">Términos y Condiciones</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+    <!-- Este es el cuerpo de la página principal-->
+
+    <main>
+
+        <!-- Aquí empieza el carrusel de Bootstrap -->
+
+        <h1 class="titulo-cabecera">Conoce todas nuestras temáticas</h1>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes/Imagenes-para-divs/background-navidad.jpg" class="d-block w-100" alt="Imagen de bienvenida navideño">
+                
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/imagenes-carrusel-bootstrap/fondo-best-seller.jpg" class="d-block w-100" alt="Top libros best-sellers de noviembre">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/imagenes-carrusel-bootstrap/top-3-vendidos.jpg" class="d-block w-100" alt="top 3 libros más vendidos">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes/gift-cards/banner-formas-pago.jpg" class="d-block w-100" alt="Formas de pago, ahora con ahora 12 y ahora 18">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Acá empieza el contenido de los 10 libros más vendidos. -->
+
+        <section class="contenedor-vidriera col-md-12">
+
+          <div id="top-10">
+            <h2 class="text-center">Más vendidos</h2>
+            
+            <ol class="list-group list-group-numbered">
+          
+              <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+              <div class="fw-bold"><span><a href="pages/pages-libros/libro-1.html">El club de los Psicópatas</a></span></div>
+              JOHN KATZENBACH
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">126</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-2.html">Asesino de brujas</a></span></div>
+              SHELBY MAHURIN
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">112</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-3.html">Notas al pie</a></span></div>
+              ALEJANDRO DOLINA
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">98</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between     align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-4.html">Horóscopo Chino</a></span></div>
+                LUDOVICA SQUIRRU DARI
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">92</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-5.html">Los secretos de la mente millonaria</a></span></div>
+                T. HARV EKER
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">83</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-6.html">Al final mueren los dos</a></span></div>
+                ADAM SILVERA
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">74</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-7.html">El Italiano</a></span></div>
+                ARTURO PEREZ REVERTE
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">66</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-8.html">Rojo, blanco y sangre azul</a></span></div>
+                CASEY McQUISTON
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">59</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-9.html">Billy summers</a></span></div>
+                STEPHEN KING
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">57</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+              <div class="ms-2 me-auto">
+                <div class="fw-bold"><span><a href="pages/pages-libros/libro-10.html">Los siete maridos de Evelyn Hugo</a></span></div>
+                TAYLOR JENKINS REID
+              </div>
+              <span class="badge bg-primary rounded-pill" title="Ejemplares vendidos">52</span>
+            </li>
+          </ol>
+
+        </div>
+          
+        <div id="banner-contacto">
+          
+          <a href="pages/dudas-frecuentes.html"><img src="imagenes/imagenes-banner/banner-contacto.jpg" alt="Contactanos"></a>
+        </div>
+
+        </section>
+
+        <section class="banner-editoriales">
+
+          <a href="pages/sobrenosotros.html"><img src="imagenes/imagenes-banner/banner-librería-escobar.jpg" alt="Librería Escobar"></a>
+
+          <img src="imagenes/imagenes-banner/banner-editoriales.jpg" alt="Editoriales con las que contamos">
+
+        </section>
+
+    </main>
+
+    <!-- Acá empieza el nuevo footer que realicé -->
+
+      <footer class="main-navegacion">
+
+        <section class="footer-navegacion">
+            <article>
+                <h3>Librería Escobar</h3>
+  
+                <ul>
+                    <li><a href="pages/sobrenosotros.html">Quiénes somos</a></li>
+  
+                    <li><a href="pages/dudas-frecuentes.html">Preguntas frecuentes</a></li>
+  
+                    <li><a href="pages/sobrenosotros.html#PP">Políticas de privacidad</a></li>
+                </ul>
+            </article>
+  
+            <article>
+                <h3>Clientes</h3>
+  
+                <ul>
+                    <li><a href="pages/clientes.html">Clientes</a></li>
+  
+                    <li><a href="pages/gift-cards.html">Gift Cards</a></li>
+                </ul>
+            </article>
+  
+            <hr>
+  
+            <article>
+                <h5><span>Todos los</span> Derechos reservados <span>para más información visita &nbsp <a href="pages/terminos-y-condiciones.html">Términos Y condiciones</a></span> &#169 Librería Escobar 2022</h5>
+            </article>
+        </section>
+  
+        <nav >
+            <ul class="contenedor-navbar-libro-2">
+                <h3><span>Si quieres saber más de nosotros, &nbsp</span>visitanos en &nbsp<span> nuestras redes sociales </span></h3>
+  
+                <li><a href="https://www.facebook.com/LibreriaUsadosEscobar" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-sociales/pngegg-facebook.png" alt="icono de facebook"></a></li>
+  
+                <li><a href="https://www.instagram.com/libreria.escobar/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-sociales/pngegg-instagram.png" alt="icono de instagram"></a></li>
+  
+                <li><a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-sociales/pngegg-twitter.png" alt="icono de twitter"></a></li>
+  
+                <li><a href="https://wa.me/541124564100" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-sociales/pngegg-whatssap.png" alt="icono de whatsap"></a></li>
+  
+                <li><a href="index.html"><img src="imagenes/imagenes-redes-sociales/home.png" alt="icono de home"></a></li>
+            </ul>
+  
+            <ul class="contenedor-navbar-libro-1">
+                <li><a href="https://www.facebook.com/LibreriaUsadosEscobar" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-iconos/facebook.png" alt="icono de facebook"></a></li>
+  
+                <li><a href="https://www.instagram.com/libreria.escobar/?utm_medium=copy_link" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-iconos/instagram.png" alt="icono de instagram"></a></li>
+  
+                <li><a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-iconos/twitter.png" alt="icono de twitter"></a></li>
+  
+                <li><a href="https://wa.me/541124564100" target="_blank" rel="noopener noreferrer"><img src="imagenes/imagenes-redes-iconos/whatsap.png" alt="icono de whatsap"></a></li>
+  
+                <li><a href="index.html"><img src="imagenes/imagenes-redes-iconos/home.png" alt="icono de home"></a></li>
+            </ul>
+        </nav>
+      </footer>
+
+        <!-- Parte de js sacada de Bootstrap -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
